@@ -1,0 +1,165 @@
+.Modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modalHeader{
+    width: 100%;
+    height: 50px;
+    background: rgb(1,13,157);
+    background: linear-gradient(0deg, rgba(1,13,157,1) 0%, rgba(0,1,58,1) 100%);
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.modalHeader img{
+    width: 100px;
+    height: 30px;
+}
+.Modal .ModalBox {
+
+    height: 100%;
+    padding: 0px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+    padding-bottom: 40px;
+    overflow-y: scroll;
+}
+
+.modalHeader {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010d9d;
+    font-weight: 600;
+    font-size: 18px;
+    background: rgb(1,13,157);
+    background: linear-gradient(0deg, rgba(1,13,157,1) 0%, rgba(0,1,58,1) 100%);
+}
+
+.fa-xmark {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.modalInfo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: black;
+    margin-top: 30px;
+    background-color: #FCC500;
+    border-radius: 18px;
+    padding: 10px 5px;
+}
+.modalInputs{
+    width: 95%;
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.inputTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5.5px;
+}
+.inputTitle p{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000;
+}
+.inputTitle input{
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #C9C9C9;
+    outline: 1px solid #010d9d;
+}
+
+.modalButton{
+    border: none;
+    width: 100%;
+    height: 54px;
+    padding: 12.050000190734863px 45.40999984741211px 13.949999809265137px 45.59000015258789px;
+    border-radius: 15px;
+    background-color: #FCC500;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding: 0px 136px;
+}
+
+.modalButton a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.Languages{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #010d9d;
+    border-radius: 10px;
+}
+.Languages h5{
+    z-index: 99;
+    width: 120px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.none{
+    display: none;
+}
+.BgDiv{
+    position: absolute;
+    background-color: #010d9d;
+    width: 120px;
+    height: 100%;
+    border-radius: 5px;
+    z-index: 9;
+    transition: all 0.4s ease;
+}
+.selectViloyat{
+    width: 100%;
+    padding: 20px 20px 20px 5px;
+    outline: 1px solid #010d9d;
+    border-radius: 5px;
+    border: 1.5px solid #010d9d;
+}

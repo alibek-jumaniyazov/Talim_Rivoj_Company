@@ -12,11 +12,12 @@ export default function LandingHomePage() {
       {/* Mobila Version */}
       <div className="header">
         <div className="animated-text">
-          <div className="line">Turk Tili</div>
           <img src={img} alt="" width={"120px"} />
-          <div className="line">Rus Tili</div>
+          <div className="line">O'zbekiston Diplomi</div>
           <img src={img} alt="" width={"120px"} />
-          <div className="line">Ingliz Tili</div>
+          <div className="line">O'zbekiston Universiteti</div>
+          <img src={img} alt="" width={"120px"} />
+
         </div>
       </div>
       <div className="main">

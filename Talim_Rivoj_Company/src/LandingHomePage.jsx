@@ -65,7 +65,7 @@ export default function LandingHomePage() {
       </div>
       <div className="footer">
         <div className="footerOne">
-          <p className="footerName">Ta'lim Rivoj Til Markazi</p>
+          <p className="footerName">Ta'lim Rivoj Company</p>
           <span className="academyInfo">Bepul darsga ro'yxatdan o'tish 25.08.2023 yilgacha davom etadi.
             Manzil: Darital Savdo Majmuasi Hyundai Avto Salon yonida </span>
           <p className="phoneNumber">+998 90 077 00 67</p>

@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import img1 from './images/Logo.png'
 import { Link } from 'react-router-dom';
+import YuborishTgPage from './YuborishTgPage';
 
 const TelegramBotForm = ({  }) => {
 
-  const [tekshiruv, setTekshiruv] = useState(false);
+  const [yuborishTg, setYuborishTg] = useState('none');
   const [tuman, setTuman] = useState('Urganch shahri');
 
   const [formData, setFormData] = useState({
     name: '',
     tel: '+998 ',
-    til: '',
   });
 
 
@@ -49,9 +49,9 @@ const TelegramBotForm = ({  }) => {
           chat_id: chatId,
           text: message,
         });
-        setTekshiruv(true);
+        setYuborishTg('LongPage');
         // Malumotlarni uzatganizdan keyin input ishidegi malumot ochib ketadi
-        setFormData({ name: '', tel: '+998 ', setTil: 'Turk' });
+        setFormData({ name: '', tel: '+998 ' });
       }
 
 
@@ -59,10 +59,6 @@ const TelegramBotForm = ({  }) => {
       console.error('Error sending message to Telegram:', error);
     }
   };
-
-  if (formData.name == ! '', formData.tel == ! '+998 ') {
-    setTekshiruv(true);
-  }
 
 
   return (
@@ -103,16 +99,12 @@ const TelegramBotForm = ({  }) => {
           </div>
          
         </div>
-        {tekshiruv ? 
-         <Link to={"tgkanal"}> <button type="submit" className='modalButton'>
-              Yuborish 
-          </button></Link>
-           : 
          <button type="submit" className='modalButton'> 
             Yuborish 
          </button> 
-        }
+
       </form>
+      <YuborishTgPage yuborishTg={yuborishTg}/>
     </div>
   );
 };

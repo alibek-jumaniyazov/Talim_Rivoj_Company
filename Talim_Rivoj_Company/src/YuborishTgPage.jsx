@@ -1,13 +1,13 @@
 import React from 'react'
 import tgImage from './images/Logo.png'
 
-export default function YuborishTgPage({ tillar }) {
+export default function YuborishTgPage({ yuborishTg }) {
   return (
-    <div className='LongPage'>
+    <div className={yuborishTg}>
       <h1>Oxirgi qadam qoldi!</h1>
       <p>7 Kunlik bepul darsga qatnashish uchun quyidagi tugmani bosib yopiq Telegram kanalga qo'shiling!</p>
       <img src="" alt="" />
-      <a href={tillar}><button className='button'>
+      <a href={'https://t.me/+DRbxAuPUWy5mYTUy'}><button className='button'>
         <div class="svg-wrapper-1">
           <div class="svg-wrapper">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -16,7 +16,7 @@ export default function YuborishTgPage({ tillar }) {
             </svg>
           </div>
         </div>
-        <span>Obuna bo'lish</span>
+        <span>Obuna bo'lish</span>  
       </button></a>
       <img src={tgImage} alt="" className='FooterLogo'/>
     </div>

@@ -10,6 +10,9 @@
     position: fixed;
     top: 0;
     left: 0;
+    background: url(../images/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .modalHeader{
@@ -67,9 +70,9 @@
     text-align: center;
     font-size: 23px;
     font-weight: 600;
-    color: black;
+    color: white;
     margin-top: 30px;
-    background-color: #FCC500;
+    background-color: #010d9d;
     border-radius: 18px;
     padding: 10px 5px;
 }
@@ -112,8 +115,8 @@
     height: 54px;
     padding: 12.050000190734863px 45.40999984741211px 13.949999809265137px 45.59000015258789px;
     border-radius: 15px;
-    background-color: #FCC500;
-    color: black;
+    background-color: #010d9d;
+    color: white;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;

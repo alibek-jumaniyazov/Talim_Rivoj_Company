@@ -3,7 +3,7 @@ import axios from 'axios';
 import img1 from './images/Logo.png'
 import { Link } from 'react-router-dom';
 
-const TelegramBotForm = ({ setTillar, tillar }) => {
+const TelegramBotForm = ({  }) => {
 
   const [tekshiruv, setTekshiruv] = useState(false);
   const [tuman, setTuman] = useState('Urganch shahri');
@@ -14,45 +14,9 @@ const TelegramBotForm = ({ setTillar, tillar }) => {
     til: '',
   });
 
-  const [til, setTil] = useState("Turk 🇹🇷")
-  const [color, setColor] = useState({
-    turk: 'black',
-    engilsh: 'white',
-    rus: 'black'
-  })
-  const [left, setLeft] = useState(0)
 
-
-  function Engilsh() {
-    setTil('English 🇺🇸')
-    setTillar("https://t.me/+LNT3E33_0IYyYzZi")
-    setLeft(0)
-    setColor({
-      turk: 'black',
-      engilsh: 'white',
-      rus: 'black'
-    })
-  }
-  function Turk() {
-    setTil(`Turk 🇹🇷`)
-    setTillar("https://t.me/+gSrDzdbWQac1NmYy")
-    setLeft(34)
-    setColor({
-      turk: 'white',
-      engilsh: 'black',
-      rus: 'black'
-    })
-  }
-  function Rus() {
-    setTil('Rus 🇷🇺')
-    setTillar("https://t.me/+08inHuxoGCUyNWFi")
-    setLeft(66)
-    setColor({
-      turk: 'black',
-      engilsh: 'black',
-      rus: 'white'
-    })
-  }
+ 
+  
 
 
 
@@ -65,15 +29,15 @@ const TelegramBotForm = ({ setTillar, tillar }) => {
     event.preventDefault();
 
     //  'YOUR_BOT_API_TOKEN' Bu yerga Telegram bot token API yoziladi
-    const apiToken = '6406627293:AAH7VNgJ9r1Y6tqLjBpC7C07VVvtQLeHQ08';
-    const chatId = '2060086235'; // Telegram user ni ChatId 
+    const apiToken = '6579613997:AAFiPXWulKMregiwepcFp_GHS7kntZDREuQ';
+    const chatId = '2119173106'; // Telegram user ni ChatId 
     
     const message = `
       Yangi foydalanuvchi:  
       Name: ${formData.name}
       Telefon Raqam: ${formData.tel}
       Yashash joyi: ${tuman}
-      Til: ${til}
+
     `;
 
     try {
@@ -137,23 +101,17 @@ const TelegramBotForm = ({ setTillar, tillar }) => {
               </select>
             </div>
           </div>
-          <p className="tanlash">Tilni tanlang</p>
-          <div className="Languages">
-            <div className="BgDiv" style={{ left: `${left}%` }}></div>
-            <h5 href='#' onClick={() => Engilsh()} style={{ color: color.engilsh }}>Ingilz Tili</h5>
-            <h5 href='#' onClick={() => Turk()} style={{ color: color.turk }}>Turk Tili</h5>
-            <h5 href='#' onClick={() => Rus()} style={{ color: color.rus }} >Rus Tili</h5>
-          </div>
+         
         </div>
-        {/* {tekshiruv ? ( */}
+        {tekshiruv ? 
          <Link to={"tgkanal"}> <button type="submit" className='modalButton'>
               Yuborish 
           </button></Link>
-        {/* ) : ( */}
-          {/* <button type="submit" className='modalButton'> */}
-            {/* Yuborish */}
-          {/* </button> */}
-        {/* )} */}
+           : 
+         <button type="submit" className='modalButton'> 
+            Yuborish 
+         </button> 
+        }
       </form>
     </div>
   );

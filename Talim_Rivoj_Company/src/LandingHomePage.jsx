@@ -26,7 +26,9 @@ export default function LandingHomePage() {
           <span>Talim Rivoj</span>
         </div>
         <h5 className="mainText">
-          1 Hafta bepul darsda kundalik muloqotingizni chet tillarida qilish darajasiga chiqing
+          Keyingi yilni kutmang
+          Vaqt sotib olishni imkoni yo’q
+          1 hafta ichida O’zbekistonda talaba bo’ling
         </h5>
         <div className="mainBigInfo">
           <div className="imgButton">
@@ -44,19 +46,19 @@ export default function LandingHomePage() {
           <p>1 Haftalik bepul darsda :</p>
           <ul>
             <div className="MinInfosLi">
-              <li>Boshingizni devorga urish shart bo'lmagan xolda bor imkoniyatlardan foydalanish mohiyatini tushunasiz </li>
+              <li>Kontraktingizni 5 yildan keyin to’laysiz xavotr olmang foizsiz bosh og’riqlarsiz ta’lim krediti xavotrga o’rin yo’q</li>
             </div>
             <div className="MinInfosLi">
-              <li>Hafta davomida xotira va diqqatingizni chalg'ituvchi omillardan xalos bo'lishga erishasiz albatda til o'rganish bilan birga</li>
+              <li>Boshingizni devorga urish shart bo’lmagan xolda imtihonga kirish yoki javob kutish shart emas</li>
             </div>
             <div className="MinInfosLi">
-              <li>Sertifikatlarni qo'lga kiritishda qiynab qo'ymaydigan zeriktirmaydigan samarali usullarga qaratilgan darslar</li>
+              <li>Hafta davomida sizga 1000$ qiymatdagi biznes treninglar smm mobilografiya treding online darsliklari sovg’a qilinadi </li>
             </div>
             <div className="MinInfosLi">
-              <li>Siz xoxlagan chet tiliga doir aniq tushunarli metodga qaratilgan o'quv dasturi </li>
+              <li>Kontrakt to’lovingizni 1 mln to’lab beriladi va registratsiya to’lovidan ozod bo’lasiz natijada faqatgina kompaniya to’lovini qilasiz </li>
             </div>
             <div className="MinInfosLi">
-              <li>Hafta davomida 3 kun til kurslari bilan birga biznes olamiga sayohat hamda shaxsiy rivojlanishga qaratilgan aniq instrumentlar</li>
+              <li>Hafta davomida universitetni o’rganib chiqishingiz uchun video roliklar prizintatsiyalar ofisimizda oilangiz bilan uchrashuvlar</li>
             </div>
           </ul>
         </div>
@@ -65,7 +67,7 @@ export default function LandingHomePage() {
         <div className="footerOne">
           <p className="footerName">Ta'lim Rivoj Til Markazi</p>
           <span className="academyInfo">Bepul darsga ro'yxatdan o'tish 25.08.2023 yilgacha davom etadi.
-          Manzil: Darital Savdo Majmuasi Hyundai Avto Salon yonida </span>
+            Manzil: Darital Savdo Majmuasi Hyundai Avto Salon yonida </span>
           <p className="phoneNumber">+998 90 077 00 67</p>
           <span className="infoData">Barcha huquqlar himoyalangan, 2023.</span>
         </div>

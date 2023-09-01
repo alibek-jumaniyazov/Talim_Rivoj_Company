@@ -43,7 +43,7 @@ export default function LandingHomePage() {
           <p>Shoshiling! Joylar soni cheklangan</p>
         </div>
         <div className="mainInfos">
-          <p>1 Haftalik bepul darsda :</p>
+          <p>1 Hafta Ichida :</p>
           <ul>
             <div className="MinInfosLi">
               <li>Kontraktingizni 5 yildan keyin to’laysiz xavotr olmang foizsiz bosh og’riqlarsiz ta’lim krediti xavotrga o’rin yo’q</li>

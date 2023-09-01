@@ -22,7 +22,7 @@ export default function LandingHomePage() {
       </div>
       <div className="main">
         <div className="mainHeaderInfo">
-          <p>15 - </p>
+          <p>15 - SENTABR</p>
           <span>Talim Rivoj</span>
         </div>
         <h5 className="mainText">

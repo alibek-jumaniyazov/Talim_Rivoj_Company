@@ -91,7 +91,7 @@ header p {
     display: flex;
     justify-content: center;
     text-align: center; 
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 28px;
     color: white;
@@ -101,7 +101,7 @@ header p {
     border-radius: 6px;
 }
 .mainTextDiv{
-    padding: 20px;
+    padding: 10px;
     margin-bottom: -20px; 
 }
 

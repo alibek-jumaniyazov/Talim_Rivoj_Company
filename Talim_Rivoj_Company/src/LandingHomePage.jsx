@@ -25,11 +25,14 @@ export default function LandingHomePage() {
           <p>15 - SENTABR</p>
           <span>Talim Rivoj</span>
         </div>
-        <h5 className="mainText">
+        <div className="mainTextDiv">
+           <h5 className="mainText">
           Keyingi yilni kutmang
           Vaqt sotib olishni imkoni yo’q
           1 hafta ichida O’zbekistonda talaba bo’ling
         </h5>
+        </div>
+       
         <div className="mainBigInfo">
           <div className="imgButton">
             {/* <img src={img1} alt="" /> */}

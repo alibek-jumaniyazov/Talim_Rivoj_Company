@@ -48,7 +48,7 @@ header p {
     align-items: center;
     flex-direction: column;
     gap: 46px;
-    height: 1260px;
+    height: 1360px;
     padding: 45px 0px;
 }
 
@@ -94,10 +94,15 @@ header p {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
-    color: #001F8D;
-    /* width: 350.09px; */
-    height: 72px;
+    color: white;
+    width: 100%;
     padding: 10px 3px;
+    background-color: #001F8D;
+    border-radius: 6px;
+}
+.mainTextDiv{
+    padding: 20px;
+    margin-bottom: -20px; 
 }
 
 .mainBigInfo {

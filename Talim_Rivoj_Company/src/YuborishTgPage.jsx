@@ -6,6 +6,8 @@ export default function YuborishTgPage({ yuborishTg }) {
     <div className={yuborishTg}>
       <h1>Oxirgi qadam qoldi!</h1>
       <p>7 Kunlik bepul darsga qatnashish uchun quyidagi tugmani bosib yopiq Telegram kanalga qo'shiling!</p>
+      <p>Har bir gap ispoti bilan bo’lgani yaxshi 
+Quyidagi tugmani bosing va telegram kanalimizda talabalar fikrlari hujjatlar va yo’nalishlar bilan tanishib chiqing</p>
       <img src="" alt="" />
       <a href={'https://t.me/+DRbxAuPUWy5mYTUy'}><button className='button'>
         <div class="svg-wrapper-1">

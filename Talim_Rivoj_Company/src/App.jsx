@@ -5,8 +5,7 @@ import YuborishTgPage from './YuborishTgPage.jsx'
 import {Routes , Route} from 'react-router-dom'
 function App() {
 
-  const [tillar , setTillar] = useState("https://t.me/+gSrDzdbWQac1NmYy")
-
+  // const [tillar , setTillar] = useState("https://t.me/+gSrDzdbWQac1NmYy")
   return (
    <div className="App">
         <Routes>
